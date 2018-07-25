@@ -1,0 +1,37 @@
+{
+  "name": "vuetiful-filters",
+  "version": "0.0.1",
+  "description": "Filters for the vuetiful framework",
+  "scripts": {
+    "test": "npm run unit",
+    "unit": "jest --config jest.conf.js --coverage"
+  },
+  "main": "./src/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IlyasDeckers/vuetiful-utilities.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "filters",
+    "vuetiful"
+  ],
+  "author": "Ilyas Deckers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IlyasDeckers/vuetiful-utilities/issues"
+  },
+  "homepage": "https://github.com/IlyasDeckers/vuetiful-utilities#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.0",
+    "babel-plugin-dynamic-import-node": "^2.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "jest": "^23.4.1",
+    "lodash": "^4.17.10"
+  }
+}
